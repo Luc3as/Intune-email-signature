@@ -29,6 +29,7 @@ Intune Email Signature Installer is a **PowerShell-based automated solution** fo
 ### **1️⃣ Setting Up the Shared Excel Sheet**
 
 The script pulls data from an Excel sheet stored on **Google Drive**. Follow these steps to configure it:
+(You can find example file in repository)
 
 1. **Create a Google Sheet** and populate it with the following columns:
    ```plaintext
@@ -37,6 +38,7 @@ The script pulls data from an Excel sheet stored on **Google Drive**. Follow the
    city, postalCode, telephoneNumber, mobilePhone, companyName,
    setNewEmail, setReplyEmail
    ```
+   First cell A1 should contain `Version:30-1-2025`.
 2. Click **File > Download > Microsoft Excel (.xlsx)** and save the file.
 3. Upload the Excel file to **Google Drive**.
 4. **Get the Google Drive File ID:**
